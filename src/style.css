@@ -1,0 +1,81 @@
+:root {
+	--primary: #47b988;
+	--secondary: #31475c;
+	--bg-color: #242424;
+	--text-color: #ffff;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	background-color: var(--bg-color);
+	color: var(--text-color);
+}
+
+* {
+	margin: 0;
+}
+
+::-webkit-scrollbar {
+	width: 15px;
+	left: -150px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--primary);
+	background-clip: content-box;
+	border: 5px solid transparent;
+}
+
+body {
+	font-family: Inter, Helvetica, Arial, sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+	isolation: isolate;
+}
+
+button {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.5em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	cursor: pointer;
+}
