@@ -26,7 +26,7 @@
 
 .main-card {
     width: 800px;
-    height: 500px;
+    height: 600px;
     padding: 2em;
     flex-direction: column;
     gap: 1em;
