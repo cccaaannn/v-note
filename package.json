@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "make": "make",
+    "deploy": "gh-pages --dist dist --branch gh-pages"
   },
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
