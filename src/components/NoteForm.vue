@@ -34,10 +34,10 @@ function onAdd() {
 <template>
     <div class="form">
         <label for="title">Title</label>
-        <input autofocus name="title" maxlength="20" v-model="currentTitle" />
-        
+        <input autofocus name="title" maxlength="20" placeholder="Go to market..." v-model="currentTitle" />
+
         <label for="content">Content</label>
-        <textarea name="content" rows="5" v-model="currentContent" />
+        <textarea name="content" placeholder="Buy some melons..." v-model="currentContent" />
 
         <button type="button" @click="onAdd">+ADD</button>
     </div>
@@ -49,7 +49,24 @@ button {
 }
 
 input {
-    max-width: 200px;
+    max-width: 220px;
+    padding: 1em 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+
+    max-height: 100px;
+    min-height: 100px;
+
+    resize: none;
+
+    padding: 1em 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .form {
