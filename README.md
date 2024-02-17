@@ -8,3 +8,22 @@ Simple notes app with vue.
 
 ## Demo
 [cccaaannn.github.io/v-note](https://cccaaannn.github.io/v-note/)
+
+### Running for Development
+```shell
+bun run dev
+```
+
+### Building
+```shell
+bun run build
+```
+or
+```shell
+make
+```
+
+### Deploy
+```shell
+bun run deploy
+```
